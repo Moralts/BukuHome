@@ -3,12 +3,12 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 茂茂的
-  text: 前端导航模板
-  tagline: 基于 VitePress 的个人前端导航页面模板
+  name: Buku的
+  text: 项目小窝
+  tagline: 为 Buku 系列项目搭起来的小窝
   image:
     src: /logo.png
-    alt: 茂茂物语
+    alt: Buku的大头
   actions:
     - text: 茂茂物语
       link: https://notes.fe-mm.com
@@ -51,7 +51,6 @@ features:
     details: '<small class="bottom-small">一个想躺平的小开发</small>'
     link: https://notes.fe-mm.com/mao
 ---
-
 <style>
 /*爱的魔力转圈圈*/
 .m-home-layout .image-src:hover {
