@@ -19,12 +19,12 @@ features:
   - icon: 📖
     title: BukuWiki
     details: Minecraft 玩家们的终极指南<small>（还没做完呢）</small><br />为国内玩家提供一站式教程
-    link: https://notes.fe-mm.com/fe/javascript/types
+    link: https://docs.buku.wiki/
     linkText: 看看教程
   - icon: 📂
     title: BukuFile
     details: BukuWiki 配套文件站<br />为 Wiki 中难以下载的提供便携下载服务
-    link: https://notes.fe-mm.com/analysis/utils/only-allow
+    link: https://file.buku.wiki/
     linkText: 看看有啥
   - icon: 💯
     title: 过好现在，好过现在。
