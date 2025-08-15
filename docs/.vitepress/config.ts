@@ -11,7 +11,7 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: 'Buku小窝',
+  title: 'Buku 的小窝',
   description: '为 Buku 系列项目搭建的安身小窝',
   head,
 
