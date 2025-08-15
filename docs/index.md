@@ -11,7 +11,7 @@ hero:
     alt: Buku的大头
   actions:
     - text: 项目介绍
-      link: https://notes.fe-mm.com
+      link: /about
     - text: 项目导航
       link: /nav/
       theme: alt
@@ -27,7 +27,6 @@ features:
     link: https://notes.fe-mm.com/analysis/utils/only-allow
     linkText: 源码阅读
   - icon: 💯
-    title: 吾志所向，一往无前。
-    details: '<small class="bottom-small">一个想躺平的小开发</small>'
-    link: https://notes.fe-mm.com/mao
+    title: 过好现在，好过现在。
+    details: '一群有志向的猫猫开发者们~'
 ---

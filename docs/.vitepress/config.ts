@@ -41,7 +41,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/Moralts/BukuHome' }],
 
     footer: {
-      message: '为各位猫猫贡献者所作的小窝~ <a href="https://github.com/maomao1996/vitepress-nav-template">模板来源 maomao</a>',
+      message: '为各位猫猫贡献者所作的小窝~ <p><a href="https://github.com/maomao1996/vitepress-nav-template">模板来源 maomao</a></p>',
       copyright: 'Copyright © Moralts and maomao',
     },
 
