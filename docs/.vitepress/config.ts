@@ -41,7 +41,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/Moralts/BukuHome' }],
 
     footer: {
-      message: '为各位猫猫贡献者所作的小窝~ <p><a href="https://github.com/maomao1996/vitepress-nav-template">模板来源 maomao</a></p>',
+      message: '为各位猫猫贡献者所作的小窝~',
       copyright: 'Copyright © Moralts and maomao',
     },
 
@@ -65,16 +65,6 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
 
     /*** 自定义配置 ***/
-    visitor: {
-      badgeId: 'maomao1996.vitepress-nav-template',
-    },
-
-    comment: {
-      repo: 'maomao1996/vitepress-nav-template',
-      repoId: 'R_kgDOJC09Jg',
-      category: 'Announcements',
-      categoryId: 'DIC_kwDOJC09Js4Cekn0',
-    },
   },
 
   vite: {

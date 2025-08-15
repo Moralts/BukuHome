@@ -2,18 +2,12 @@
 import { useData, inBrowser } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
-import Giscus from '@giscus/vue'
-
-import { usePageId } from '../composables'
-
-import MNavVisitor from './MNavVisitor.vue'
+// ...existing code...
 import MDocFooter from './MDocFooter.vue'
 
 const { Layout } = DefaultTheme
 const { isDark, theme, frontmatter } = useData()
-const pageId = usePageId()
-
-const { comment } = theme.value
+// ...existing code...
 
 const enableTransitions = () =>
   'startViewTransition' in document &&
@@ -69,27 +63,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
       https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/Layout.vue
     -->
-    <template #nav-bar-title-after>
-      <MNavVisitor />
-    </template>
-
-    <template v-if="comment && frontmatter.comment !== false" #doc-footer-before>
-      <div class="doc-comments">
-        <Giscus
-          id="comments"
-          mapping="specific"
-          :term="pageId"
-          strict="1"
-          reactionsEnabled="1"
-          emitMetadata="0"
-          inputPosition="top"
-          :theme="isDark ? 'dark' : 'light'"
-          lang="zh-CN"
-          loading="lazy"
-          v-bind="{ ...comment }"
-        />
-      </div>
-    </template>
+    <!-- 已移除评论和访问统计相关内容 -->
 
     <template #doc-after>
       <MDocFooter />
@@ -102,10 +76,5 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   border-top: none;
 }
 
-.doc-comments {
-  margin-top: 24px;
-  margin-bottom: 48px;
-  border-top: 1px solid var(--vp-c-divider);
-  padding-top: 24px;
-}
+
 </style>

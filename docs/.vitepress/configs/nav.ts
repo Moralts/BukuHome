@@ -10,4 +10,5 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'BukuFile', link: 'https://file.buku.wiki/' },
     ],
   },
+  { text: '页面模板', link: 'https://github.com/maomao1996/vitepress-nav-template' },
 ]
